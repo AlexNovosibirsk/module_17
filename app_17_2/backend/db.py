@@ -7,5 +7,6 @@ engine = create_engine(sqlite_database, echo=True)
 
 SessionLocal = sessionmaker(bind=engine)
 
+
 class Base(DeclarativeBase):
     pass
