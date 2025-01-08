@@ -1,2 +1,2 @@
-from module_17_3.models.user import User
-from module_17_3.models.task import Task
+from models.user import User
+from models.task import Task

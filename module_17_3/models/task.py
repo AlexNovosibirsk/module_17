@@ -1,7 +1,7 @@
-from module_17_3.backend.db import Base, engine
+from backend.db import Base, engine
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Float
 from sqlalchemy.orm import relationship, Session
-from module_17_3.models import *
+from models import *
 
 
 class Task(Base):
